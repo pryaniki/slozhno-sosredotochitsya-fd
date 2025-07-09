@@ -1,4 +1,9 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --purple: #db00ff;
+  --pink: #f1b2ce;
+  --retro-pink: #ff0070;
+  --dark-blue: #000028;
+  --pink-sakura: #ffc2e6;
+  --very-light-pink: #ff8dcb;
+  --dark-gray: #353430;
+}
