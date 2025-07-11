@@ -111,5 +111,8 @@
 .title-decoration {
   background-color: var(--accent-color);
   color: var(--dark-blue);
+}
+
+.title-bold {
   font-weight: 800;
 }
