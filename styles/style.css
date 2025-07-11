@@ -3,3 +3,114 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
+
+
+.header {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 55px;
+  background: url(../images/cover-image-dark.png);
+  padding: 10px;
+}
+
+.decorated-zone::before {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  content: '';
+  width: 26px;
+  height: 26px;
+  padding-right: 26px;
+  border-top: var(--border);
+  border-right: var(--border);
+}
+
+.decorated-zone::after {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  content: '';
+  width: 26px;
+  height: 26px;
+  border-bottom: var(--border);
+  border-left: var(--border);
+}
+
+.header__label {
+  position: absolute;
+  top: 12px;
+  right: 38px;
+}
+
+.header__label::after {
+  position: absolute;
+  top: 6px;
+  right: -18px;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent-color);
+  box-shadow: 0px 0px 4px 4px var(--accent-color);
+}
+
+.header__theme-menu {
+  grid-column: 1;
+  grid-row: 1 / 2;
+  justify-self: end;
+  align-self: end;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 66px;
+}
+
+.header__theme-menu-button {
+  text-transform: lowercase;
+  padding: 0 12px;
+  background: none;
+  border: none;
+}
+
+.header__theme-menu-button_active {
+  box-sizing : content-box;
+  border: 1px solid var(--accent-color);
+}
+
+.cover {
+  display: grid;
+  grid-column: 1;
+  grid-row: 2 / 4;
+  row-gap: 56px;
+  padding-bottom: 65px;
+}
+
+.cover__title {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: var(--h1-size);
+  line-height: 82.5%;
+  color: var(--purple);
+  text-shadow: var(--text-shadow);
+}
+
+.cover__description {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.title-decoration {
+  background-color: var(--accent-color);
+}
+
+.cover__description-text {
+  color: var(--dark-blue);
+  font-weight: 800;
+}

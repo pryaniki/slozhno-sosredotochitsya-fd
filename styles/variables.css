@@ -6,4 +6,11 @@
   --pink-sakura: #ffc2e6;
   --very-light-pink: #ff8dcb;
   --dark-gray: #353430;
+
+  --h1-size: 116px;
+  --main-font-family: 'IBM Plex mono', sans-serif;
+  --font-size: 18px;
+  --accent-color: var(--retro-pink);
+  --text-shadow: 4px 4px 0 var(--accent-color);
+  --border: 1px solid var(--accent-color);
 }
