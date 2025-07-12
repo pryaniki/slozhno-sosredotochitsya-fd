@@ -15,6 +15,7 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 55px;
   padding: 10px;
+  margin-block-end: 40px;
 }
 
 .decorated-zone::before {
@@ -125,6 +126,10 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 30px repeat(auto-fill, 1fr);
+  width: 100%;
+  padding: 0 10px;
+  margin-block-end: 50px;
+
 }
 
 .section__title {
@@ -163,6 +168,10 @@
     
 }
 
+.content__section-gallery {
+  margin-block-end: 40px;
+}
+
 .pinterest-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -172,14 +181,14 @@
 }
 
 .pinterest-grid__image {
-    grid-column: 1;
-    object-fit: cover;
-    width: 100%;
+  grid-column: 1;
+  object-fit: cover;
+  width: 100%;
 }
 
 .pinterest-grid__image:nth-child(1) {
- grid-row: 1 / 2;
- height: 142px;
+  grid-row: 1 / 2;
+  height: 142px;
 }
 
 .pinterest-grid__image:nth-child(2) {
