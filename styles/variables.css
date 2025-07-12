@@ -10,6 +10,7 @@
   --h1-size: 116px;
   --main-font-family: 'IBM Plex mono', sans-serif;
   --font-size: 18px;
+  --line-height: 24px;
   --accent-color: var(--retro-pink);
   --text-shadow: 4px 4px 0 var(--accent-color);
   --text-shadow-little: 2px 2px 0 var(--accent-color);
