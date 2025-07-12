@@ -116,3 +116,77 @@
 .title-bold {
   font-weight: 800;
 }
+
+.content {
+    
+}
+
+.content__section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30px repeat(auto-fill, 1fr);
+}
+
+.section__title {
+    
+}
+
+.text-block {
+    
+}
+
+.text-block__title {
+    
+}
+
+.text {
+    
+}
+
+.list-title {
+    
+}
+
+.list {
+    
+}
+
+.list__item {
+    
+}
+
+.list__item-text {
+    
+}
+
+.list__item-desctiption {
+    
+}
+
+.pinterest-grid {
+    
+}
+
+.pinterest-grid__image {
+    
+}
+
+.pinterest-grid__image:nth-child(1) {
+
+}
+
+.pinterest-grid__image:nth-child(2) {
+
+}
+
+.pinterest-grid__image:nth-child(3) {
+
+}
+
+.pinterest-grid__image:nth-child(4) {
+
+}
+
+.pinterest-grid__image:nth-child(5) {
+
+}
