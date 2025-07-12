@@ -22,6 +22,7 @@
   position: absolute;
   top: 10px;
   right: 10px;
+  z-index: 1;
   content: '';
   width: 26px;
   height: 26px;
@@ -34,6 +35,7 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
+  z-index: 1;
   content: '';
   width: 26px;
   height: 26px;
@@ -101,7 +103,14 @@
   font-size: var(--h1-size);
   line-height: 82.5%;
   color: var(--purple);
+}
+
+.text-shadow {
   text-shadow: var(--text-shadow);
+}
+
+.text-shadow-little {
+  text-shadow: var(--text-shadow-little);
 }
 
 .cover__description {
@@ -129,7 +138,6 @@
   width: 100%;
   padding: 0 10px;
   margin-block-end: 50px;
-
 }
 
 .section__title {
@@ -209,4 +217,16 @@
 .pinterest-grid__image:nth-child(5) {
   grid-row: 5 / 6;
   height: 238px;
+}
+
+.footer {
+  position: relative;
+  height: 100vh;
+}
+
+.footer__cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
