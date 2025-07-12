@@ -141,7 +141,9 @@
 }
 
 .section__title {
-    
+  color: var(--accent-color);
+  font-size: var(--font-size);
+  margin-block-end: 20px;
 }
 
 .text-block {
