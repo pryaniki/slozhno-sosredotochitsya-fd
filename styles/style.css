@@ -140,7 +140,8 @@
 .content__section {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 30px repeat(auto-fill, 1fr);
+  grid-template-rows: repeat(auto-fill, min-content);
+  row-gap: 20px;
   width: 100%;
   padding: 0 10px;
   margin-block-end: 50px;
@@ -149,19 +150,23 @@
 .section__title {
   color: var(--accent-color);
   font-size: var(--font-size);
-  margin-block-end: 20px;
 }
 
 .text-block {
-    
+  
 }
 
 .text-block__title {
-    
+  font-size: var(--font-size);
+  margin-block-end: 10px;
 }
 
 .text {
-    
+
+}
+
+.link {
+
 }
 
 .list-title {
