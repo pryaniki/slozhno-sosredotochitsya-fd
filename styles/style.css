@@ -216,12 +216,12 @@
     
 }
 
-.list__item {
-    
+.list__item:not(:last-child) {
+  margin-block-end: 20px;
 }
 
 .list__item-text {
-    
+  margin-block-end: 10px;
 }
 
 .list__item-desctiption {
