@@ -18,4 +18,9 @@
   --text-shadow-little: 2px 2px 0 var(--accent-color);
   --border: 1px solid var(--accent-color);
   --background: url(../images/cover-image-dark.png);
+
+  --offset-56-to-162: clamp(3.5rem, -2.8216rem + 26.972vw, 10.125rem);
+  --offset-10-to-20: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  --offset-10-to-0: clamp(0.625rem, 1.2245rem + -2.551vw, 0rem);
+  --offset-0-to-10: clamp(0rem, -0.5995rem + 2.551vw, 0.625rem);
 }
