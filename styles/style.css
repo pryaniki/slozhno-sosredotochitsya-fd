@@ -166,7 +166,7 @@
 }
 
 .link {
-
+  text-shadow: var(--text-shadow-little);
 }
 
 .list-title {
