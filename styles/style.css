@@ -166,7 +166,38 @@
 }
 
 .link {
+  position: relative;
   text-shadow: var(--text-shadow-little);
+}
+
+/* .link:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--accent-color);
+} */
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+}
+
+.link:hover::after {
+  background-color: var(--pink);
+}
+
+.link:focus {
+  outline: none;
+}
+
+.link:focus-visible {
+  outline: 1px solid var(--pink);
+  outline-offset: 1px;
+  border-radius: 0;
 }
 
 .list-title {
