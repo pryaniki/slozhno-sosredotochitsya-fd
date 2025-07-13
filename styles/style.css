@@ -149,6 +149,9 @@
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
   padding: 0 10px;
 }
 
@@ -158,7 +161,6 @@
   grid-auto-rows: min-content;
   row-gap: 20px;
   width: 100%;
-  margin-block-end: 50px;
 }
 
 .section__title {
@@ -330,7 +332,6 @@
   .header__theme-menu-list {
     padding-top: calc(var(--offset-56-to-162) + var(--offset-0-to-10) * 2);
   }
-
 }
 
 @media (768px <= width < 1024px) {
@@ -353,6 +354,7 @@
     margin-inline-start: 10px;
   }
   .content {
+    gap: 80px;
     padding-right: 40px;
   }
 
