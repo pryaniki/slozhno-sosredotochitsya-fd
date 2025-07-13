@@ -353,12 +353,14 @@
     grid-column: 2 / 3;
     margin-inline-start: 10px;
   }
+
   .content {
     gap: 80px;
     padding-right: 40px;
   }
 
   .content__section:nth-child(1),
+  .content__section:nth-child(2),
   .content__section:nth-child(3) {
     grid-template-columns: minmax(236px, min-content) minmax(472px, auto);
     column-gap: 20px;
@@ -370,6 +372,15 @@
 
   .content__section:nth-child(1) .text-blocks {
     grid-column: 2;
+  }
+
+  .content__section:nth-child(2) .section__title {
+    grid-column: 1 / 2;
+  }
+
+  .content__section:nth-child(2) .text-blocks {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
   }
 
   .text {
