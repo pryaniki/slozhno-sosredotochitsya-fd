@@ -169,8 +169,8 @@
 }
 
 .text-blocks {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 20px;
 }
 
@@ -494,7 +494,16 @@
     padding: 0 2%;
   }
 
-  .content__section:nth-child(1) {
+  .content__section:nth-child(1),
+  .content__section:nth-child(2) {
     grid-template-columns: minmax(316px, min-content) minmax(650px, auto);
+  }
+
+  .content__section:nth-child(2) .text-blocks {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .content__section:nth-child(2) .text{
+    word-break: normal;
   }
 }
