@@ -87,8 +87,9 @@
   border: 1px solid transparent;
   color: var(--accent-color);
 }
+
 .header__theme-menu-button:hover{
-  border-color:rgba(var( --accent-color-rgb) , 0.4);
+  border-color:rgba(var(--accent-color-rgb) , 0.4);
 }
 
 .header__theme-menu-button:focus {
@@ -97,11 +98,11 @@
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom:  1px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
 }
 
 .header__theme-menu-button_active {
-  box-sizing : content-box;
+  box-sizing: content-box;
   border: 1px solid var(--accent-color);
 }
 
@@ -141,7 +142,7 @@
 
 .title-decoration {
   background-color: var(--accent-color);
-  color: var(--dark-blue);
+  color: var(--text-color);
 }
 
 .text-bold {

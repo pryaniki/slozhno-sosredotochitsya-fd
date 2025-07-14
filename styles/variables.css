@@ -6,7 +6,9 @@
   --dark-blue: #000028;
   --pink-sakura: #ffc2e6;
   --very-light-pink: #ff8dcb;
+  --very-light-pink-rgb: 255, 141, 203;
   --dark-gray: #353430;
+  --dark-gray-rgb: 53, 52, 48;
 
   --h1-size: 116px;
   --main-font-family: 'IBM Plex mono', sans-serif;
@@ -16,7 +18,9 @@
   --accent-color-rgb: var(--retro-pink-rgb);
   --text-shadow: 4px 4px 0 var(--accent-color);
   --text-shadow-little: 2px 2px 0 var(--accent-color);
-  --border: 1px solid var(--accent-color);
+  --text-color: var(--dark-blue);
+  --border-color: var(--accent-color);
+  --border: 1px solid var(--border-color);
   --background: url(../images/cover-image-dark.png);
 
   --offset-56-to-162: clamp(3.5rem, -2.8216rem + 26.972vw, 10.125rem);
