@@ -340,7 +340,7 @@
   }
 }
 
-@media (768px <= width < 1024px) {
+@media (768px <= width) {
   .header {
     padding-left: 0;
     margin-block-end: 60px;
@@ -447,7 +447,7 @@
 
 @media (1024px <= width) {
   .header {
-    row-gap: var(--offset-56-to-162);
+    row-gap: 114px;
     padding: 20px;
   }
 
