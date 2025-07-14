@@ -489,4 +489,12 @@
   .cover__description-text {
     word-break: break-all;
   }
+
+  .content {
+    padding: 0 2%;
+  }
+
+  .content__section:nth-child(1) {
+    grid-template-columns: minmax(316px, min-content) minmax(650px, auto);
+  }
 }
