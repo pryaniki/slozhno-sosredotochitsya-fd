@@ -495,7 +495,8 @@
   }
 
   .content__section:nth-child(1),
-  .content__section:nth-child(2) {
+  .content__section:nth-child(2),
+  .content__section:nth-child(3) {
     grid-template-columns: minmax(316px, min-content) minmax(650px, auto);
   }
 
