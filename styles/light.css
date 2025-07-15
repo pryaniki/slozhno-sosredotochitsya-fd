@@ -32,3 +32,34 @@
 .theme-light .link:focus-visible {
   outline: 1px solid var(--dark-gray);
 }
+
+@media (prefers-color-scheme: light) {
+  :root.theme-light {
+    --accent-color: var(--very-light-pink);
+    --accent-color-rgb: var(--very-light-pink-rgb);
+    --text-color: var(--dark-gray);
+    --border-color: var(--dark-gray);
+    --background: url(../images/cover-image-light.png);
+  }
+  
+  .theme-light .header__label {
+    display: none;
+  }
+  .theme-light .cover__title {
+    color: var(--pink-sakura);
+  }
+  
+  .theme-light .section__title {
+    color: var(--dark-gray);
+  }
+  
+  .theme-light .header__theme-menu-button {
+    --accent-color-rgb: var(--dark-gray-rgb);
+    --accent-color: var(--dark-gray);
+    color: var(--dark-gray);
+  }
+  
+  .theme-light .link:focus-visible {
+    outline: 1px solid var(--dark-gray);
+  }
+} 

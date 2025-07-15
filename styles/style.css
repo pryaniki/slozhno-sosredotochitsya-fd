@@ -141,6 +141,7 @@
 }
 
 .title-decoration {
+  --text-color: var(--dark-blue);
   background-color: var(--accent-color);
   color: var(--text-color);
 }
