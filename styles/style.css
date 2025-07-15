@@ -102,6 +102,7 @@
 .header__theme-menu-button_active {
   box-sizing: content-box;
   border: 1px solid var(--accent-color);
+  pointer-events: none;
 }
 
 .cover {
