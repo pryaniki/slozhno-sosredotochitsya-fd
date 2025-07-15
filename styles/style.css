@@ -234,7 +234,7 @@
   margin-block-end: 20px;
 }
 
-.list__item-text {
+.info-card__title {
   margin-block-end: 10px;
 }
 
@@ -398,7 +398,7 @@
     grid-column: 2;
   }
 
-  .text {
+  .text-with-word-break-all {
     word-break: break-all;
   }
 
