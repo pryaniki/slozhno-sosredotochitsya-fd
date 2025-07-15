@@ -23,6 +23,10 @@
   .theme-auto .cover__title {
     color: var(--pink-sakura);
   }
+
+  .theme-auto .title-decoration {
+    color: var(--dark-gray);
+  }
   
   .theme-auto .section__title {
     color: var(--dark-gray);
@@ -45,6 +49,10 @@
 
 .theme-light .cover__title {
   color: var(--pink-sakura);
+}
+
+.theme-light .title-decoration {
+  color: var(--dark-gray);
 }
 
 .theme-light .section__title {
