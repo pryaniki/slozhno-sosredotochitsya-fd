@@ -20,11 +20,18 @@
   --text-shadow: 4px 4px 0 var(--accent-color);
   --text-shadow-little: 2px 2px 0 var(--accent-color);
   --text-color: var(--pink);
+  --title-color: var(--purple);
+  --title-decoration-color: var(--dark-blue);
+  --box-shadow: 0px 0px 2px 2px var(--accent-color);
   --border-color: var(--accent-color);
   --border: 1px solid var(--border-color);
   --background: url(../images/cover-image-dark.png);
   --bg-color: var(--dark-blue);
 
+  --link-bg-color: var(--pink);
+  --link-border-color: var(--pink);
+  --link-outline-color: var(--pink);
+  --link-outline: 1px solid var(--link-outline-color);
 
   /* todo убрать эти переменные */
   --offset-56-to-162: clamp(3.5rem, -2.8216rem + 26.972vw, 10.125rem);
