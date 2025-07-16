@@ -245,7 +245,7 @@
 }
 
 .info-card__title {
-  margin-block-end: 10px;
+  /* margin-block-end: 10px; */
 }
 
 .list__item-desctiption {
@@ -350,6 +350,7 @@
     padding-left: 0;
     row-gap: 16%;
     margin-block-end: 60px;
+    margin-inline-end: 10px;
   }
 
   .cover {
