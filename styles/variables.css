@@ -17,16 +17,21 @@
   --line-height: 23.4px;
   --accent-color: var(--retro-pink);
   --accent-color-rgb: var(--retro-pink-rgb);
+  
   --text-shadow: 4px 4px 0 var(--accent-color);
   --text-shadow-little: 2px 2px 0 var(--accent-color);
   --text-color: var(--pink);
   --title-color: var(--purple);
   --title-decoration-color: var(--dark-blue);
+  --title-section-color: var(--retro-pink);
+  --btn-text-color: var(--retro-pink);
+
   --box-shadow: 0px 0px 2px 2px var(--accent-color);
   --border-color: var(--accent-color);
   --border: 1px solid var(--border-color);
+  --border-color-rgb: rgba(var(--accent-color-rgb) , 0.4);
+
   --background: url(../images/cover-image-dark.png);
-  --bg-color: var(--dark-blue);
 
   --link-bg-color: var(--pink);
   --link-border-color: var(--pink);

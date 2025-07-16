@@ -2,68 +2,53 @@
   --bg-color: var(--lavender-blush);
   --accent-color: var(--very-light-pink);
   --accent-color-rgb: var(--very-light-pink-rgb);
+
   --text-color: var(--dark-gray);
   --title-color: var(--pink-sakura);
   --title-decoration-color: var(--dark-gray);
+  --title-section-color: var(--dark-gray);
+  --btn-text-color: var(--dark-gray);
+
   --border-color: var(--dark-gray);
+  --border-color-rgb: var(--dark-gray);
+  --border-color-rgb: rgba(var(--dark-gray-rgb) , 0.4);
+
   --background: url(../images/cover-image-light.png);
+
   --link-bg-color: var(--dark-gray);
   --link-outline-color: var(--dark-gray);
   --link-border-color: var(--dark-gray);
-
 }
 
 @media (prefers-color-scheme: light) {
   /* theme-auto  */
   :root.theme-auto {
-  --bg-color: var(--lavender-blush);
-  --accent-color: var(--very-light-pink);
-  --accent-color-rgb: var(--very-light-pink-rgb);
-  --text-color: var(--dark-gray);
-  --title-color: var(--pink-sakura);
-  --title-decoration-color: var(--dark-gray);
-  --border-color: var(--dark-gray);
-  --background: url(../images/cover-image-light.png);
-  --link-bg-color: var(--dark-gray);
-  --link-outline-color: var(--dark-gray);
-  --link-border-color: var(--dark-gray);
+    --bg-color: var(--lavender-blush);
+    --accent-color: var(--very-light-pink);
+    --accent-color-rgb: var(--very-light-pink-rgb);
 
+    --text-color: var(--dark-gray);
+    --title-color: var(--pink-sakura);
+    --title-decoration-color: var(--dark-gray);
+    --title-section-color: var(--dark-gray);
+    --btn-text-color: var(--dark-gray);
 
+    --border-color: var(--dark-gray);
+    --border-color-rgb: var(--dark-gray);
+    --border-color-rgb: rgba(var(--dark-gray-rgb) , 0.4);
+
+    --background: url(../images/cover-image-light.png);
+    
+    --link-bg-color: var(--dark-gray);
+    --link-outline-color: var(--dark-gray);
+    --link-border-color: var(--dark-gray);
   }
 
   .theme-auto .header__label {
     display: none;
   }
-  
-  .theme-auto .title-decoration {
-    color: var(--dark-gray);
-  }
-  
-  .theme-auto .section__title {
-    color: var(--dark-gray);
-  }
-  
-  .theme-auto .header__theme-menu-button {
-    --accent-color-rgb: var(--dark-gray-rgb);
-    --accent-color: var(--dark-gray);
-    color: var(--dark-gray);
-  }
 } 
 
 .theme-light .header__label {
   display: none;
-}
-
-.theme-light .title-decoration {
-  color: var(--dark-gray);
-}
-
-.theme-light .section__title {
-  color: var(--dark-gray);
-}
-
-.theme-light .header__theme-menu-button {
-  --accent-color-rgb: var(--dark-gray-rgb);
-  --accent-color: var(--dark-gray);
-  color: var(--dark-gray);
 }

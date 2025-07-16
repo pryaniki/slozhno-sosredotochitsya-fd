@@ -88,11 +88,11 @@
   padding: 0 12px;
   background: none;
   border: 1px solid transparent;
-  color: var(--accent-color);
+  color: var(--btn-text-color);
 }
 
 .header__theme-menu-button:hover{
-  border-color:rgba(var(--accent-color-rgb) , 0.4);
+  border-color: var(--border-color-rgb);
 }
 
 .header__theme-menu-button:focus {
@@ -101,12 +101,12 @@
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: var(--border);
 }
 
 .header__theme-menu-button_active {
   box-sizing: content-box;
-  border: 1px solid var(--accent-color);
+  border: var(--border);
   pointer-events: none;
 }
 
@@ -169,7 +169,7 @@
 }
 
 .section__title {
-  color: var(--accent-color);
+  color: var(--title-section-color);
   font-size: var(--font-size);
 }
 
