@@ -11,7 +11,7 @@
   --dark-gray-rgb: 53, 52, 48;
 
   --large-font-size: 116px;
-  --main-font-family: 'IBM Plex mono', sans-serif;
+  --main-font-family: 'IBM Plex mono', monospace, sans-serif;
   --font-size: 18px;
   --line-height: 23.4px;
   --accent-color: var(--retro-pink);
