@@ -121,7 +121,7 @@
   grid-column: 1;
   grid-row: 1;
   color: var(--purple);
-  font-size: var(--h1-size);
+  font-size: var(--large-font-size);
   line-height: 82.5%;
   justify-self: start;
 }
@@ -232,6 +232,12 @@
 
 .list__item:not(:last-child) {
   margin-block-end: 20px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .info-card__title {
