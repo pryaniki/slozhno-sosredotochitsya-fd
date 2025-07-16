@@ -312,6 +312,7 @@
 
   .header {
     row-gap: 16%;
+    margin-inline-end: 10px;
   }
 
   .content {
@@ -333,7 +334,6 @@
     padding-left: 0;
     row-gap: 16%;
     margin-block-end: 60px;
-    margin-inline-end: 10px;
   }
 
   .cover {
