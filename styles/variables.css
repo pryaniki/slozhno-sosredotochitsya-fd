@@ -3,6 +3,7 @@
   --pink: #f1b2ce;
   --retro-pink: #ff0070;
   --retro-pink-rgb: 255, 0, 112;
+  --lavender-blush:#fff1f7;
   --dark-blue: #000028;
   --pink-sakura: #ffc2e6;
   --very-light-pink: #ff8dcb;
@@ -22,6 +23,8 @@
   --border-color: var(--accent-color);
   --border: 1px solid var(--border-color);
   --background: url(../images/cover-image-dark.png);
+  --bg-color: var(--dark-blue);
+
 
   /* todo убрать эти переменные */
   --offset-56-to-162: clamp(3.5rem, -2.8216rem + 26.972vw, 10.125rem);
