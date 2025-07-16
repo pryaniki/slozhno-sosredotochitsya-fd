@@ -185,11 +185,10 @@
 
 .text-block__title {
   font-size: var(--font-size);
-  margin-block-end: 10px;
 }
 
 .text {
-
+  
 }
 
 .link {
