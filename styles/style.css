@@ -253,28 +253,28 @@
   max-block-size: 100%;
 }
 
-.gallery__image:nth-child(1) {
-  grid-row: 1 / 2;
+.gallery .image-sunset {
+  grid-row: 1;
   height: 142px;
 }
 
-.gallery__image:nth-child(2) {
-  grid-row: 2 / 3;
+.gallery .image-ice-cream {
+  grid-row: 2;
   height: 356px;
 }
 
-.gallery__image:nth-child(3) {
-  grid-row: 3 / 4;
+.gallery .image-tape {
+  grid-row: 3;
   height: 238px;
 }
 
-.gallery__image:nth-child(4) {
-  grid-row: 4 / 5;
+.gallery .image-books {
+  grid-row: 4;
   height: 356px;
 }
 
-.gallery__image:nth-child(5) {
-  grid-row: 5 / 6;
+.gallery .image-street {
+  grid-row: 5;
   height: 238px;
 }
 
@@ -397,31 +397,31 @@
     gap: 20px;
   }
 
-  .gallery__image:nth-child(1) {
+  .gallery .image-sunset{
    grid-column: 1 / span 2;
    grid-row: 1 / 2;
    height: 192px;
   }
   
-  .gallery__image:nth-child(2) {
+  .gallery .image-ice-cream {
     grid-column: 3;
     grid-row: 1 / span 2;
     height: 442px;
   }
   
-  .gallery__image:nth-child(3) {
+  .gallery .image-books {
     grid-column: 2;
     grid-row: 2;
     height: 230px;
   }
   
-  .gallery__image:nth-child(4) {
+  .gallery .image-tape {
     grid-column: 1;
     grid-row: 2 / span 2;
     height: 568px;
   }
   
-  .gallery__image:nth-child(5) {
+  .gallery .image-street {
     grid-column: 2 / span 2;
     grid-row: 3 ;
     height: 318px;
@@ -496,31 +496,31 @@
     gap: 20px;
   }
 
-  .gallery__image:nth-child(1) {
-   grid-column: 1 / span 2;
-   grid-row: 1 / 2;
-   height: 260px;
+  .gallery .image-sunset {
+    grid-column: 1 / span 2;
+    grid-row: 1 / 2;
+    height: 260px;
   }
   
-  .gallery__image:nth-child(2) {
+  .gallery .image-ice-cream {
     grid-column: 3;
     grid-row: 1 / span 2;
     height: 596px;
   }
   
-  .gallery__image:nth-child(3) {
+  .gallery .image-books {
     grid-column: 2;
     grid-row: 2;
     height: 316px;
   }
   
-  .gallery__image:nth-child(4) {
+  .gallery .image-tape {
     grid-column: 1;
     grid-row: 2 / span 2;
     height: 768px;
   }
   
-  .gallery__image:nth-child(5) {
+  .gallery .image-street {
     grid-column: 2 / span 2;
     grid-row: 3;
     height: 432px;
