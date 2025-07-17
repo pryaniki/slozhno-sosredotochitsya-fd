@@ -308,7 +308,7 @@
   }
 
   .content {
-    padding-left: 0;
+    padding-left: 20px;
     padding-right: 20px;
   }
 }
@@ -344,7 +344,6 @@
 
   .content {
     gap: 80px;
-    padding-right: 40px;
   }
 
   .content__section {
