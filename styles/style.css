@@ -311,11 +311,6 @@
     padding-left: 0;
     padding-right: 20px;
   }
-
-  .header__theme-menu-list {
-    /* padding-top: 272%; */
-    /* padding-top: 5vi; */
-  }
 }
 
 @media (768px <= width) {
@@ -380,10 +375,6 @@
 
   .content__section:nth-child(3) .list-wrap {
     grid-column: 2;
-  }
-
-  .text-with-word-break-all {
-    /* word-break: break-all; */
   }
 
   .content__section-gallery {
