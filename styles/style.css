@@ -473,10 +473,6 @@
   .one-column-layout .text-blocks {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  .one-column-layout .text{
-    word-break: normal;
-  }
   
   .gallery {
     grid-template-columns: repeat(3, 1fr);
