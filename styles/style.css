@@ -221,6 +221,10 @@
   gap: 10px;
 }
 
+.info-card__title {
+  font-weight: 400;
+}
+
 .content__section-gallery {
   display: grid;
   grid-template-columns: 1fr;
